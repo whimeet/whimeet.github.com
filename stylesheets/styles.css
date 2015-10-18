@@ -1,19 +1,23 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700);
 
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  -webkit-font-smoothing: antialiased;
+}
+
 body {
-  padding:50px;
-  font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#777;
-  font-weight:300;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  color:#222;
-  margin:0 0 0px;
-}
-
-p, ul, ol, table, pre, dl {
-  margin:0 0 20px;
+  color: #333;
+  background-color: #fafbfc;
+  font-family: 'Raleway', Arial, sans-serif;
+  font-weight: 400;
+  font-size: 0.85em;
+  overflow: hidden;
 }
 
 h1, h2, h3 {
@@ -36,6 +40,7 @@ a {
   color:#39c;
   font-weight:400;
   text-decoration:none;
+  border: none;
 }
 
 a small {
@@ -46,7 +51,7 @@ a small {
 }
 
 .wrapper {
-  width:860px;
+  width:800px;
   margin:0 auto;
 }
 
